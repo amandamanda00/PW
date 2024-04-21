@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6ea2b4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.receita {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #9ec9d7;
+}
+
+.btn-mostrar {
+    background-color: #B0E0E6;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ingredientes, .modo-preparo {
+    display: none;
+}
